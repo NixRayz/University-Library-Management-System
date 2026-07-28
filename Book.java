@@ -6,7 +6,7 @@ public class Book implements Comparable<Book> {
     private int year;
     private boolean isBorrowed;
     private BookStatus status;
-    private String category; // اضافه شده بر اساس رقم آخر شماره دانشجویی (۶: دسته‌بندی کتاب‌ها)
+    private String category; 
 
     public Book(String id, String title, String author, String isbn, int year, String category) {
         this.id = id;
