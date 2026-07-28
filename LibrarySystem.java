@@ -7,7 +7,7 @@ public class LibrarySystem {
         Library library = new Library();
         Scanner scanner = new Scanner(System.in);
 
-        // تولید ۳۶ کتاب و ۳۶ کاربر اولیه (مبتنی بر دو رقم آخر شماره دانشجویی سعید مرادی: 02111085302036)
+        
         int initialCount = 36;
         generateInitialData(library, initialCount);
 
